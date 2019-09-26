@@ -1,0 +1,59 @@
+body{
+    background-image:
+            url("https://res.cloudinary.com/dhg2lpfid/image/upload/v1569533398/java_large_slyrx0.webp");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    text-align: left;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
+
+.jumbotron{
+    background-color: tan;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.jumbotron.card{
+    align-self: center;
+    text-align: left;
+    width: 45rem;
+}
+
+.jumbotron.card.card-body{
+    background-color: sandybrown;
+}
+
+/*.table{*/
+/*    background-color: lightgrey;*/
+/*}*/
+
+.div.nav.nav-link a {
+    color: whitesmoke;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
