@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <title>There's A Method to My Madness</title>
     <div th:insert="base :: head"></div>
+    <style>
+        .card{text-align: left}
+    </style>
 </head>
 <body>
 <div th:insert="base :: navlinks"></div>
@@ -18,7 +18,45 @@
                 <h5>There's A Method to My Madness</h5>
                 <h6>Posted September 26, 2019</h6>
                 <br>
-                <p>Yada, yada, yada. </p>
+                <p>A method is a set of statements grouped together
+                    to perform an operation. Using methods has several
+                    benefits: </p>
+                <ul>
+                    <li>Reusable code.</li>
+                    <li>Breaking a problem down into smaller chunks
+                        (also called "top-down programming").</li>
+                    <li>Simplifying and organizing your code, reducing
+                        the possibility of errors creeping in when the
+                        same lines of code exist in multiple places.</li>
+                </ul>
+                <p>Here is an example of a method to multiply two numbers:</p>
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body" style="background-color: blanchedalmond">
+                            <p class="card-text">
+                                public static int multiplyTwoNumbers(int num1, int num2){</p>
+                            <p class="card-text" style="padding-left: 25px">
+                                int product = 0;</p>
+                            <p class="card-text" style="padding-left: 25px">
+                                product = num1 * num2;</p>
+                            <p class="card-text" style="padding-left: 25px">
+                                return product;</p>
+                            <p class="card-text">
+                                }</p>
+                        </div>
+                    </div>
+                </div>
+                <p>To call the method in your main code (i.e., get the result
+                    the method returns), you would define num1 and num2 and
+                    then use:</p>
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body" style="background-color: blanchedalmond">
+                            <p class="card-text">
+                                int result = multiplyTwoNumbers(int num1, int num2);</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

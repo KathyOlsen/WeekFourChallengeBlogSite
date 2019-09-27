@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Structure Theorem</title>
+    <title>All Programmers Need Structure</title>
     <div th:insert="base :: head"></div>
+    <style>
+        .card{text-align: left}
+    </style>
 </head>
 <body>
 <div th:insert="base :: navlinks"></div>
@@ -15,10 +14,21 @@
     <div class="jumbotron">
         <div class="container">
             <div class="jumbotron" style="background-color: lightgoldenrodyellow">
-                <h5>Structure Theorem</h5>
+                <h5>All Programmers Need Structure</h5>
                 <h6>Posted September 27, 2019</h6>
                 <br>
-                <p>Yada, yada, yada. </p>
+                <p>The Structure Theorem describes how programs are organized.
+                    The three components of the Theorem are:</p>
+                <ul>
+                    <li><b>Sequence</b>: Code is executed linearly (in the
+                        order in which it appears).</li>
+                    <li><b>Selection</b>: Decision tree or flow chart logic.
+                        Each step is a choice on what to do. These are reflected in
+                        IF . . . ELSE . . . statements.</li>
+                    <li><b>Repetition</b>: As long as a condition is true,
+                        execute a block of statements over and over again (see
+                        my blog post on <a href="/coreJava2">loops</a>).</li>
+                </ul>
             </div>
         </div>
     </div>

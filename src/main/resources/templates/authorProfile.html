@@ -6,26 +6,59 @@
     <title>Author Profile</title>
     <div th:insert="base :: head"></div>
     <style>
-
+        h4{text-align: center}
+        h5{text-align: center}
+        h6{text-align: center; font-style: normal}
+        p{text-align: left; font-size:15px}
     </style>
 </head>
 <body>
 <div th:insert="base :: navlinks"></div>
 <br>
-<div class="container">
-    <div class="jumbotron" style="width: 35rem">
-        <h1>About the Author</h1>
-        <br>
+<div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
         <div class="container">
-            <div class="card" style="width: 25rem">
-                <img src="..." class="card-img-top" alt="Katherine K Olsen">
-                <div class="card-body">
-                    <p class="card-text">para and links</p>
+            <div class="jumbotron">
+                <h1><strong>About the Author</strong></h1>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="card">
+                                <img src="https://res.cloudinary.com/dhg2lpfid/image/upload/w_1000,c_fill,ar_1:1,b_rgb:39414d,bo_5px_solid_rgb:542222,c_fill,g_auto,r_max,w_1000,z_1.1/v1569591356/Kathy_s_Profile_Photo_exdoo5.jpg"
+                                     class="card-img-top"
+                                alt="Katherine K Olsen">
+                                <div class="card-body">
+                                    <h4 class="card-text"><strong>Katherine K. Olsen</strong></h4>
+                                    <h5 class="card-text">Data Analyst</h5>
+                                    <h5 class="card-text">Java Web Developer</h5>
+                                    <br>
+                                    <p class="card-text"><span><img src="https://res.cloudinary.com/dhg2lpfid/image/upload/v1569596641/LinkedIn-icon-150x150_bpxaco.png"
+                                                                    alt="LinkedIn Logo" width="32px"> </span>
+                                        https://www.linkedin.com/in/katherine-k-olsen-492031163/</p>
+                                    <p class="card-text"><span><img src="https://res.cloudinary.com/dhg2lpfid/image/upload/v1569596608/GitHub-Mark-32px_l906b8.png"
+                                                                    alt="GitHub Logo"></span>
+                                        https://github.com/KathyOlsen</p>
+                                    <p class="card-text"><span><img src="https://res.cloudinary.com/dhg2lpfid/image/upload/b_rgb:000e7a/v1569596673/tableau-logo-transparent-fff_idccv2.png"
+                                    alt="Tableau Public logo" width="64px"></span> https://public.tableau.com/profile/katherine.olsen</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="col-sm-4">
+    </div>
 </div>
-</div><div th:insert="base :: footer"></div>
+<div th:insert="base :: footer"></div>
 <div th:insert="base :: bootstrapScripts"></div>
 </body>
 </html>

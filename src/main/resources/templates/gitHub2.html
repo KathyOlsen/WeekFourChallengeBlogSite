@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Push Me Pull You</title>
     <div th:insert="base :: head"></div>
@@ -16,7 +14,27 @@
                 <h5>Push Me Pull You</h5>
                 <h6>Posted September 27, 2019</h6>
                 <br>
-                <p>Yada, yada, yada. </p>
+                <p>There is a push and pull to making sure you are working
+                    on the most current version of a GitHub project.  For
+                    example, you have an existing project on GitHub that
+                    also already exists on your computer, and you or a
+                    collaborator has made changes to it from another computer.</p>
+                <p>In this instance, open the project already on your computer,
+                    click on Terminal, and when it gives you a command prompt, type:</p>
+                <p><b>git pull</b></p>
+                <p>and hit enter.  This will pull the version from GitHub to your
+                    computer. If you had any of the files already open, you will
+                    need to close them, close the parent directories, and reopen
+                    the directories and files. </p>
+                <p>In order to save the changes you make back to GitHub, in the
+                    terminal type:</p>
+                <p><b>git add .</b></p>
+                <p>and hit enter.  Then type:</p>
+                <p><b>git commit -m "<i>(your message here)</i>"</b></p>
+                <p>and hit enter.  And then:</p>
+                <p><b>git push origin master</b></p>
+                <p>and hit enter. This should push your updated version back to
+                    your repository on GitHub.</p>
             </div>
         </div>
     </div>

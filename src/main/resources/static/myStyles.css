@@ -37,7 +37,7 @@ h6{
 .jumbotron.card{
     align-self: center;
     text-align: left;
-    width: 45rem;
+    /*width: 45rem;*/
 }
 
 .jumbotron.card.card-body{
@@ -46,8 +46,8 @@ h6{
 
 .card{
     align-self: center;
-    text-align: left;
-    width: 25rem;
+    text-align: center;
+    /*width: 25rem;*/
     background-color: lightgoldenrodyellow;
 }
 

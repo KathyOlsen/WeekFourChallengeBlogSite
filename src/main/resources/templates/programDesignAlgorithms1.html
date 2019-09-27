@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Dante's Algorithm</title>
     <div th:insert="base :: head"></div>
+    <style>
+        .card{text-align: left}
+    </style>
 </head>
 <body>
 <div th:insert="base :: navlinks"></div>
@@ -18,7 +17,37 @@
                 <h5>Dante's Algorithm</h5>
                 <h6>Posted September 27, 2019</h6>
                 <br>
-                <p>Yada, yada, yada. </p>
+                <p>An algorithm is a set of instructions on how to do something.
+                    Pseudocode is the language used to write out the instructions.
+                    Java or another programming language is used to convert the
+                    pseudocode into actual code. </p>
+                <p>In pseudocode convention, the statements are in simple English.
+                    Each instruction is written on a separate line.  Keywords and
+                    indentation are used to indicate structures.</p>
+                <p>The algorithm also follows the format of Input, Process, Output.</p>
+                <p>Here is an example of an algorithm to calculate an average of
+                    10 exam scores input by a user:</p>
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body" style="background-color: blanchedalmond">
+                            <p class="card-text">Exam Score Average</p>
+                            <br>
+                            <p class="card-text">Declare Integer exam_score</p>
+                            <p class="card-text">Declare Integer Sum</p>
+                            <p class="card-text">Declare Integer Avg</p>
+                            <br>
+                            <p class="card-text">for (Integer counter=0; counter<10; counter++)</p>
+                            <p class="card-text">Prompt user for exam_score</p>
+                            <p class="card-text">Get exam_score</p>
+                            <p class="card-text">Update Sum = Sum + exam_score</p>
+                            <br>
+                            <p class="card-text">Get Sum</p>
+                            <p class="card-text">Calculate Avg = Sum / 10</p>
+                            <br>
+                            <p class="card-text">Display Avg</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
