@@ -27,9 +27,10 @@ h6{
 
 .jumbotron{
     background-color: tan;
+    align-self: center;
     padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 15px;
 }
 
@@ -40,15 +41,14 @@ h6{
 }
 
 .jumbotron.card.card-body{
-    background-color: sandybrown;
+    background-color: lightgoldenrodyellow;
 }
 
-/*.table{*/
-/*    background-color: lightgrey;*/
-/*}*/
-
-.div.nav.nav-link a {
-    color: whitesmoke;
+.card{
+    align-self: center;
+    text-align: left;
+    width: 25rem;
+    background-color: lightgoldenrodyellow;
 }
 
 .center {

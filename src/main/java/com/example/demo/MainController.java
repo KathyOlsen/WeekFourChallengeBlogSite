@@ -26,24 +26,14 @@ public class MainController {
         return "programDesignAlgorithms1";
     }
 
-    @RequestMapping("/coreJava1")
-    public String coreJava1(){
-        return "coreJava1";
-    }
-
-    @RequestMapping("/objectOrientedJava1")
-    public String objectOrientedJava1(){
-        return "objectOrientedJava1";
-    }
-
-    @RequestMapping("/htmlCssBootstrap1")
-    public String htmlCssBootstrap1(){
-        return "htmlCssBootstrap1";
-    }
-
     @RequestMapping("/programDesignAlgorithms2")
     public String programDesignAlgorithms2(){
         return "programDesignAlgorithms2";
+    }
+
+    @RequestMapping("/coreJava1")
+    public String coreJava1(){
+        return "coreJava1";
     }
 
     @RequestMapping("/coreJava2")
@@ -51,9 +41,19 @@ public class MainController {
         return "coreJava2";
     }
 
+    @RequestMapping("/objectOrientedJava1")
+    public String objectOrientedJava1(){
+        return "objectOrientedJava1";
+    }
+
     @RequestMapping("/objectOrientedJava2")
     public String objectOrientedJava2(){
         return "objectOrientedJava2";
+    }
+
+    @RequestMapping("/htmlCssBootstrap1")
+    public String htmlCssBootstrap1(){
+        return "htmlCssBootstrap1";
     }
 
     @RequestMapping("/htmlCssBootstrap2")
@@ -66,9 +66,9 @@ public class MainController {
         return "aboutBootcamp";
     }
 
-    @RequestMapping("/profile")
-    public String profile(){
-        return "profile";
+    @RequestMapping("/authorProfile")
+    public String authorProfile(){
+        return "authorProfile";
     }
 
 }
